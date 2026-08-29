@@ -283,8 +283,14 @@ body {
     height: 25dvh;
   }
 
+.post-title {
+  margin: 10px;
+}
+  
 .post-excerpt {
   text-align: left;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
   
   .bori {
