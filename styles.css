@@ -341,13 +341,13 @@ body {
   }
 
   .deco-lily {
-    top: 8%;
+    top: 32%;
     right: 2%;
     width: 65px;
   }
 
   .deco-bunny-heart {
-    top: 14%;
+    top: 16%;
     right: 2%;
     width: 60px;
   }
@@ -359,7 +359,7 @@ body {
   }
 
   .deco-bunny-gun {
-    top: 22%;
+    top: 64%;
     right: 2%;
     width: 75px;
   }
@@ -371,7 +371,7 @@ body {
   }
 
   .deco-stars {
-    top: 42%;
+    top: 48%;
     right: 2%;
     width: 60px;
   }
@@ -383,7 +383,7 @@ body {
   }
 
   .deco-star-ring {
-    bottom: 15%;
+    top: 64%;
     right: 2%;
     width: 50px;
   }
@@ -395,7 +395,7 @@ body {
   }
 
   .deco-dumpling {
-    bottom: 5%;
+    top: 80%;
     right: 2%;
     width: 75px;
   }
