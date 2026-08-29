@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Schoolbell&display=swap');
+
 :root {
   /* '전체화면' 기준 캔버스 크기. 지금 작업하신 화면이 이 크기와 다르면
      이 두 값만 바꾸면 모든 요소가 그 비율 그대로 다시 배치됩니다. */
