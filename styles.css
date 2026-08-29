@@ -232,7 +232,7 @@ body {
 
   /* Mobile */
 
- @media (max-width: 600px) {
+@media (max-width: 600px) {
 
   html,
   body {
@@ -244,10 +244,12 @@ body {
   }
 
   .stage {
-    position: relative;
     width: 100vw;
     height: 100dvh;
+
+    min-width: 0;
     min-height: 0;
+
     margin: 0;
 
     display: flex;
@@ -255,142 +257,134 @@ body {
     align-items: center;
 
     overflow: hidden;
+
+    background: radial-gradient(
+      ellipse 100% 70% at center,
+      #ff5d8f 0%,
+      #b5c99a 50%,
+      #ff5d8f 100%
+    );
   }
 
+
   /* =====================
-     BLOG CARD
+     BLOG POST
      ===================== */
 
   .blog-post-card {
-    width: 78vw;
-    max-width: 380px;
+    width: 72vw;
+    max-width: 340px;
     min-width: 0;
-    margin: 0;
 
-    border-radius: 20px;
+    margin: 0;
   }
 
   .post-img {
-    width: 100%;
-    height: 27dvh;
-
-    border-radius: 20px 20px 0 0;
+    height: 25dvh;
   }
 
-  .post-content {
-    padding: 8px;
-    padding-bottom: 12px;
+  .bori {
+    width: 80px;
+    height: 80px;
+
+    top: 25dvh;
+
+    border-width: 3px;
   }
+
 
   /* =====================
      TEXT
      ===================== */
 
   .post-title {
-    font-size: clamp(20px, 6vw, 27px);
-    margin: 10px;
+    font-size: clamp(20px, 5.5vw, 26px);
+    margin: 9px;
   }
 
   .minju {
-    font-size: clamp(27px, 8vw, 36px);
+    font-size: clamp(27px, 7.5vw, 34px);
   }
 
-  .rule {
-    font-size: clamp(14px, 4vw, 18px);
-    line-height: 1.4;
+  .rule,
+  .post-excerpt {
+    font-size: clamp(14px, 3.7vw, 17px);
+    line-height: 1.35;
   }
 
   .post-excerpt {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: -10px;
-    margin-bottom: 10px;
-
-    font-size: clamp(14px, 4vw, 18px);
-    line-height: 1.4;
-  }
-
-  /* =====================
-     BORI
-     ===================== */
-
-  .bori {
-    width: 90px;
-    height: 90px;
-
-    top: 27dvh;
-
-    border-width: 4px;
+    margin-left: 13px;
+    margin-right: 13px;
   }
 
 
   /* =====================
-     DECORATIONS
+     POSTER DECORATIONS
      ===================== */
 
   .deco-crown {
-    top: 3%;
-    left: 12%;
-    width: 75px;
+    top: 5%;
+    left: 15%;
+    width: 65px;
   }
 
   .deco-lily {
-    top: 5%;
-    right: 8%;
-    width: 75px;
+    top: 8%;
+    right: 10%;
+    width: 65px;
   }
 
   .deco-bunny-heart {
-    top: 10%;
-    right: 25%;
-    width: 70px;
+    top: 14%;
+    right: 27%;
+    width: 60px;
   }
 
   .deco-seal {
+    top: 25%;
+    left: 7%;
+    width: 60px;
+  }
+
+  .deco-bunny-gun {
     top: 22%;
+    right: 5%;
+    width: 75px;
+  }
+
+  .deco-heart-star {
+    top: 40%;
     left: 5%;
     width: 70px;
   }
 
-  .deco-bunny-gun {
-    top: 19%;
-    right: 3%;
-    width: 85px;
-  }
-
-  .deco-heart-star {
-    top: 35%;
-    left: 3%;
-    width: 80px;
-  }
-
   .deco-stars {
-    top: 37%;
-    right: 4%;
-    width: 70px;
+    top: 42%;
+    right: 5%;
+    width: 60px;
   }
 
   .deco-hamster-bag {
     bottom: 25%;
-    left: 4%;
-    width: 80px;
-  }
-
-  .deco-star-ring {
-    bottom: 14%;
-    right: 18%;
-    width: 55px;
-  }
-
-  .deco-sketch-hand {
-    bottom: 6%;
-    left: 8%;
+    left: 7%;
     width: 70px;
   }
 
+  .deco-star-ring {
+    bottom: 15%;
+    right: 20%;
+    width: 50px;
+  }
+
+  .deco-sketch-hand {
+    bottom: 7%;
+    left: 10%;
+    width: 65px;
+  }
+
   .deco-dumpling {
-    bottom: 4%;
-    right: 6%;
-    width: 90px;
+    bottom: 5%;
+    right: 7%;
+    width: 75px;
   }
 }
