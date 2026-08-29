@@ -352,19 +352,19 @@ body {
 
   .deco-bunny-heart {
     top: 16%;
-    right: 1%;
+    right: 0.8%;
     width: 60px;
   }
 
   .deco-seal {
     top: 32%;
-    left: 1.5%;
+    left: 1.8%;
     width: 60px;
   }
 
   .deco-heart-star {
     top: 64%;
-    right: 1%;
+    left: 99%;
     width: 70px;
   }
 
@@ -376,7 +376,7 @@ body {
 
   .deco-hamster-bag {
     top: 64%;
-    left: 0.8%;
+    left: 0.5%;
     width: 65px;
   }
 
@@ -388,7 +388,7 @@ body {
 
   .deco-dumpling {
     top: 80%;
-    right: 0.5%;
+    left: 99.8%;
     width: 65px;
   }
 }
