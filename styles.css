@@ -285,6 +285,7 @@ body {
 
 .post-title {
   margin: 10px;
+  line-height: 1.4;
 }
   
 .post-excerpt {
@@ -294,8 +295,8 @@ body {
 }
   
   .bori {
-  width: 100px;
-  height: 100px;
+  width: 96px;
+  height: 96px;
 
   top: 25dvh;
   left: 96%;
@@ -334,68 +335,68 @@ body {
      ===================== */
 
   .deco-crown {
-    top: 5%;
-    left: 15%;
+    top: 16%;
+    left: 2%;
     width: 65px;
   }
 
   .deco-lily {
     top: 8%;
-    right: 10%;
+    right: 2%;
     width: 65px;
   }
 
   .deco-bunny-heart {
     top: 14%;
-    right: 27%;
+    right: 2%;
     width: 60px;
   }
 
   .deco-seal {
-    top: 25%;
-    left: 7%;
+    top: 32%;
+    left: 2%;
     width: 60px;
   }
 
   .deco-bunny-gun {
     top: 22%;
-    right: 5%;
+    right: 2%;
     width: 75px;
   }
 
   .deco-heart-star {
-    top: 40%;
-    left: 5%;
+    top: 48%;
+    left: 2%;
     width: 70px;
   }
 
   .deco-stars {
     top: 42%;
-    right: 5%;
+    right: 2%;
     width: 60px;
   }
 
   .deco-hamster-bag {
-    bottom: 25%;
-    left: 7%;
+    top: 64%;
+    left: 2%;
     width: 70px;
   }
 
   .deco-star-ring {
     bottom: 15%;
-    right: 20%;
+    right: 2%;
     width: 50px;
   }
 
   .deco-sketch-hand {
-    bottom: 7%;
-    left: 10%;
+    top: 80%;
+    left: 2%;
     width: 65px;
   }
 
   .deco-dumpling {
     bottom: 5%;
-    right: 7%;
+    right: 2%;
     width: 75px;
   }
 }
