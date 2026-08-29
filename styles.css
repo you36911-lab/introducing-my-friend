@@ -294,13 +294,14 @@ body {
 }
   
   .bori {
-    width: 80px;
-    height: 80px;
+  width: 100px;
+  height: 100px;
 
-    top: 25dvh;
+  top: 25dvh;
+  left: 96%;
 
-    border-width: 3px;
-  }
+  border-width: 3px;
+}
 
 
   /* =====================
