@@ -346,7 +346,7 @@ body {
 
   .deco-lily {
     top: 48%;
-    left: 1%;
+    left: 0.8%;
     width: 60px;
   }
 
@@ -358,7 +358,7 @@ body {
 
   .deco-seal {
     top: 32%;
-    left: 1%;
+    left: 1.5%;
     width: 60px;
   }
 
@@ -370,13 +370,13 @@ body {
 
   .deco-stars {
     top: 48%;
-    right: 1%;
+    right: 0.5%;
     width: 60px;
   }
 
   .deco-hamster-bag {
     top: 64%;
-    left: 1%;
+    left: 0.8%;
     width: 65px;
   }
 
@@ -388,7 +388,7 @@ body {
 
   .deco-dumpling {
     top: 80%;
-    right: 1%;
+    right: 0.5%;
     width: 65px;
   }
 }
