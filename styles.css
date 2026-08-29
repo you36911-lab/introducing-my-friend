@@ -329,6 +329,10 @@ body {
     margin-right: 13px;
   }
 
+  .post-img {
+    margin-bottom: 0;
+  }
+
 
   /* =====================
      POSTER DECORATIONS
@@ -336,67 +340,61 @@ body {
 
   .deco-crown {
     top: 16%;
-    left: 2%;
+    left: 1%;
     width: 65px;
   }
 
   .deco-lily {
-    top: 32%;
-    right: 2%;
+    top: 48%;
+    left: 1%;
     width: 65px;
   }
 
   .deco-bunny-heart {
     top: 16%;
-    right: 2%;
+    right: 1%;
     width: 60px;
   }
 
   .deco-seal {
     top: 32%;
-    left: 2%;
+    left: 1%;
     width: 60px;
   }
 
   .deco-bunny-gun {
     top: 64%;
-    right: 2%;
+    right: 1%;
     width: 75px;
   }
 
   .deco-heart-star {
-    top: 48%;
-    left: 2%;
+    top: 64%;
+    right: 1%;
     width: 70px;
   }
 
   .deco-stars {
     top: 48%;
-    right: 2%;
+    right: 1%;
     width: 60px;
   }
 
   .deco-hamster-bag {
     top: 64%;
-    left: 2%;
+    left: 1%;
     width: 70px;
-  }
-
-  .deco-star-ring {
-    top: 64%;
-    right: 2%;
-    width: 50px;
   }
 
   .deco-sketch-hand {
     top: 80%;
-    left: 2%;
+    left: 1%;
     width: 65px;
   }
 
   .deco-dumpling {
     top: 80%;
-    right: 2%;
-    width: 75px;
+    right: 1%;
+    width: 70px;
   }
 }
