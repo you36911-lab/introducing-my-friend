@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Sunshiney&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+
+:root {
+  /* '전체화면' 기준 캔버스 크기. 지금 작업하신 화면이 이 크기와 다르면
+     이 두 값만 바꾸면 모든 요소가 그 비율 그대로 다시 배치됩니다. */
+  --stage-w: 100vw;
+  --stage-h: 100vh;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.stage {
+  position: relative;
+  width: 100vw;
+  min-width: 900px;
+  height: 100vh;
+  min-height: 650px;
+  margin: 0 auto;
+  background: radial-gradient(ellipse 1350px 850px at center, #ff5d8f 0%, #b5c99a 50%, #ff5d8f 98%);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-post-card {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  border-radius: 25px;
+  width: 26vw;
+  max-width: 500px;
+  min-width: 450px;
+  text-align: center;
+  overflow: visible;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+}
+
+.post-img {
+  width: 100%;
+  border-bottom: 5px solid #b5c99a;
+  height: 350px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  border-radius: 25px 25px 0 0;
+}
+
+.bori {
+  position: absolute;
+  top: 355px;   /* post-img 높이(350px) + border-bottom(5px) = 이미지와 텍스트 영역의 경계선 */
+  left: 100%;   /* 카드의 오른쪽 끝 */
+  transform: translate(-50%, -50%); /* 이 지점에 원의 '중심'이 오도록 당김 */
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 5px solid #b5c99a;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.post-content {
+  padding: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: rgb(255, 255, 248);
+  border-radius: 0 0 25px 25px;
+}
+
+.minju {
+  color: #ff5d8f;
+  font-size: clamp(35px, 2.7vw, 40px);
+}
+
+.post-title {
+  font-family: "Permanent Marker", sans-serif;
+  margin: 15px;
+  color: #2E1B0E;
+  font-size: clamp(25px, 2vw, 30px);
+}
+
+.post-excerpt {
+  font-family: "Schoolbell", cursive;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #2E1B0E;
+  font-size: clamp(16px, 1.4vw, 21px);
+  text-align: justify;
+  padding-top: 0;
+  
+}
+
+.rule {
+  text-align: center;
+  font-family: "Schoolbell", cursive;
+  color: #2E1B0E;
+  font-size: clamp(16px, 1.4vw, 21px);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.disrespect {
+  font-weight: bold;
+  text-decoration: underline #ff5d8f;
+  text-decoration-style: wavy;
+}
+
+.best {
+  font-weight: bold;
+  text-decoration: underline #ff5d8f;
+  text-decoration-style: double;
+}
+
+.girl {
+  font-weight: bold;
+  color: #ff5d8f;
+}
+
+.friend {
+  font-weight: bold;
+  color: #ff5d8f;
+  text-decoration: underline wavy #2E1B0E;
+}
+
+/* ===== 배경에 흩뿌리는 장식 이미지들 ===== */
+/* width를 clamp(최소, 뷰포트 비율, 최대)로 줘서 브라우저 크기가 변해도
+   같은 비율로 같이 커지고 작아짐. top/left/right/bottom도 %라서 위치 비율 유지됨 */
+.deco {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.deco-crown {
+  top: 4.4%;
+  left: 20%;
+  width: clamp(198px, 15.3vw, 220px);
+  height: auto;
+  transform: rotate(-15deg);
+}
+
+.deco-lily {
+  top: 20%;
+  right: 6.9%;
+  width: clamp(198px, 15.3vw, 220px);
+  height: auto;
+  transform: rotate(-18deg);
+}
+
+.deco-dumpling {
+  bottom: 4.4%;
+  right: 9%;
+  width: clamp(243px, 18.75vw, 270px);
+  height: auto;
+  transform: rotate(-15deg);
+}
+
+.deco-stars {
+  top: 49%;
+  right: 5.6%;
+  width: clamp(180px, 13.9vw, 200px);
+  height: auto;
+  transform: rotate(58deg);
+}
+
+.deco-heart-star {
+  top: 44.4%;
+  left: 5%;
+  width: clamp(207px, 16vw, 230px);
+  height: auto;
+  transform: rotate(12deg);
+}
+
+.deco-bunny-gun {
+  top: 33.3%;
+  right: 17.5%;
+  width: clamp(252px, 19.4vw, 280px);
+  height: auto;
+  transform: rotate(10deg);
+}
+
+.deco-seal {
+  top: 28.9%;
+  left: 8.3%;
+  width: clamp(180px, 13.9vw, 200px);
+  height: auto;
+  transform: rotate(6deg);
+}
+
+.deco-hamster-bag {
+  bottom: 34.4%;
+  left: 22%;
+  width: clamp(216px, 16.7vw, 240px);
+  height: auto;
+  transform: rotate(-6deg);
+}
+
+.deco-star-ring {
+  bottom: 10%;
+  right: 26%;
+  width: clamp(110px, 9.7vw, 120px);
+  height: auto;
+  transform: rotate(-8deg);
+}
+
+.deco-sketch-hand {
+  bottom: 11.1%;
+  left: 16%;
+  width: clamp(180px, 13.9vw, 200px);
+  height: auto;
+  transform: rotate(-10deg);
+}
+
+.deco-bunny-heart {
+  top: 12.8%;
+  right: 22.5%;
+  width: clamp(180px, 13.9vw, 200px);
+  height: auto;
+  transform: rotate(-12deg);
+}
